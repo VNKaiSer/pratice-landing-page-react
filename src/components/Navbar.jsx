@@ -1,7 +1,8 @@
 import React from 'react'
 import { hamburgerMenu, lock, logo, close } from "../assets";
-import { primaryColor } from "../constants"
+import { primaryColor } from '../constants';
 import { useState } from 'react';
+import { maxWidth } from '../constants';
 
 
 const Navbar = () => {
@@ -9,6 +10,7 @@ const Navbar = () => {
     const handleClick = () => {
         setTolgggle(!tolggle)
     }
+
     return (
         <div className='w-full h-[80px] bg-white border-b'>
             <div className='md:max-w-[1280px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-5'>
@@ -28,7 +30,7 @@ const Navbar = () => {
                         <img src={lock} />
                         Login
                     </button>
-                    <button className='bg-[#20B486] px-8 py-3 rounded-md text-white font-bold' >Sign Up For Free</button>
+                    <button className={`bg-[${primaryColor}] px-8 py-3 rounded-md text-white font-bold`} >Sign Up For Free</button>
                 </div>
                 <div className='md:hidden'>
                     <img
@@ -49,7 +51,7 @@ const Navbar = () => {
                             <img src={lock} />
                             Login
                         </button>
-                        <button className='bg-[#20B486] px-8 py-5 rounded-md text-white font-bold' >Sign Up For Free</button>
+                        <button className={`bg-[${primaryColor}] px-8 py-5 rounded-md text-white font-bold`} >Sign Up For Free</button>
                     </div>
                 </ul>
 
