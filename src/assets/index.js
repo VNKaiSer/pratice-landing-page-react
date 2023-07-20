@@ -7,4 +7,5 @@ import company1 from './company1.svg';
 import company2 from './company2.svg';
 import company3 from './company3.svg';
 import company4 from './company4.svg';
-export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4 }
+import course1 from './course1.svg';
+export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4, course1 }

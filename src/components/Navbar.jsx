@@ -1,6 +1,5 @@
 import React from 'react'
 import { hamburgerMenu, lock, logo, close } from "../assets";
-import { primaryColor, maxWidth } from '../constants';
 import { useState } from 'react';
 
 
