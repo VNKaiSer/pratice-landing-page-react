@@ -5,6 +5,7 @@ import Courses from "./Courses";
 import Achievement from "./Achievement";
 import Category from "./Category";
 import Feedback from "./Feedback";
+import Contact from "./Contact";
 
 
-export { Navbar, Hero, Trust, Courses, Achievement, Category, Feedback }
+export { Navbar, Hero, Trust, Courses, Achievement, Category, Feedback, Contact }

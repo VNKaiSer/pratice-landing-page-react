@@ -20,4 +20,5 @@ import student1 from './student1.svg';
 import quoutemark from './quoutemark.svg';
 import student2 from './student2.svg';
 import student3 from './student3.jpg';
-export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4, course1, course2, course3, course4, graduationCap, achievement, videoCamera, usersThree, Heartbeat, student1, quoutemark, student2, student3 }
+import contact from './contact.svg';
+export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4, course1, course2, course3, course4, graduationCap, achievement, videoCamera, usersThree, Heartbeat, student1, quoutemark, student2, student3, contact }
