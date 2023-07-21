@@ -15,4 +15,5 @@ import graduationCap from './GraduationCap.svg';
 import achievement from './achievement.svg';
 import videoCamera from './VideoCamera.svg';
 import usersThree from './UsersThree.svg';
-export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4, course1, course2, course3, course4, graduationCap, achievement, videoCamera, usersThree }
+import Heartbeat from './Heartbeat.svg';
+export { logo, lock, hamburgerMenu, close, heroImg, company1, company2, company3, company4, course1, course2, course3, course4, graduationCap, achievement, videoCamera, usersThree, Heartbeat }
