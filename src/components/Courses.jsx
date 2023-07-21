@@ -46,7 +46,11 @@ function Courses() {
                     className='pt-8'
                 >
                     {courses.map((course) => {
-                        return <Card course={course} />
+                        return
+                        <Card
+                            key={course.id}
+                            course={course}
+                        />
                     })}
                 </Slider>
 
