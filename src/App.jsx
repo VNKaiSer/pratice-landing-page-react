@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Hero, Trust, Courses, Achievement, Category, Feedback, Contact } from './components'
+import { Navbar, Hero, Trust, Courses, Achievement, Category, Feedback, Contact, Footer } from './components'
 import './App.css'
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
       <Category />
       <Feedback />
       <Contact />
+      <Footer />
     </>
   )
 }
